@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            background-color: rgb(0,0,33);
+            color:white;
+            font-family: 'Playfair Display',serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height:60px;
+            background-color: rgb(15, 6, 102);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin:0 24px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color:white;
+        }
+        nav ul li a:hover{
+            color:rgb(97, 97, 151);
+            font-size:1.02rem;
+        }
+        main hr{
+            border:0;
+            background:#9c97f1;
+            height:1.2px;
+            margin:40px 84px;
+        }
+        .left{
+            font-size:1.3rem;
+        }
+        .firstSection{
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 40px 0;
+        }
+        .firstSection div{
+            width:30%;
+        }
+        .leftSection{
+            margin:40px;
+            font-size: 2rem;
+        }
+        .rightSection img{
+            margin: 50px 0;
+            width:80%;
+        }
+        .bvname{
+            color: rgb(160, 99, 216);
+        }
+        .text-gray{
+            color:gray;
+        }
+        #element{
+            color:violet;
+
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin:auto;
+        }
+        .secondSection h1{
+            font-size: 1.5rem;
+        }
+        .secondSection .box{
+            background: white;
+            width:65vw;
+            height:2px;
+            margin:56px 0;
+            display: flex;
+        }
+        .secondSection .vertical{
+            height:93px;
+            width:1px;
+            background-color: white;
+            margin:0 130px;
+        }
+        .image-top{
+            width:23px;
+            position: relative;
+            top:-32px;
+            left:-9px;
+        }
+        .vertical-title{
+            position: relative;
+            top:75px;
+            width:150px;
+
+        }
+        .vertical-desc{
+            position: relative;
+            top:86px;
+            color:gray;
+            width:150px;
+            font-size:11px;
+
+        }
+        .skills-section {
+    margin: 60px auto; /* Adds space above and below the section */
+    padding: 20px;
+    background-color: rgb(20,16,56);
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.skills-title {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills-list li {
+    font-size: 1rem;
+    margin: 8px 0;
+}
+
+/* Add margin to ensure spacing between sections */
+.secondSection {
+    margin-bottom: 330px;
+}
+.certifications-section {
+    margin: 60px auto;
+    padding: 20px;
+    background-color: rgb(20, 16, 56);
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.certifications-title {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+.certifications-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.certifications-list li {
+    margin: 15px 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.certifications-list strong {
+    color: #ffd700;
+}
+
+.cert-description {
+    display: block;
+    font-size: 0.9rem;
+    color: lightgray;
+    margin-top: 5px;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class = "left">Susan's Portfolio</div>
+            <div class = "right">
+                <ul>
+                    <li><a href = "#first">Home</a></li>
+                    <li><a href = "about.html">About</a></li>
+                    <li><a href = "#Education">Education</a></li>
+                    <li><a href = "projects.html">Projects</a></li>
+                    <!-- <li><a href = "/">Experience</a></li> -->
+                    <li><a href = "contacts.html">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="first" class = "firstSection">
+            <div class="leftSection">
+                Hello world ! My name is <span class = "bvname">Diya Susan Mathew</span>
+                <!-- <div>and I am a passionate</div> -->
+                <div>I'm a </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src = "pf.avif" alt = "">
+            </div>
+
+        </section>
+        <hr>
+        <section id = "Education" class="secondSection">
+            <span class ="text-gray">Academics</span>
+            <h1>Education</h1>
+            <div class = "box">
+                <div class="vertical">
+                    <img class = "image-top" src = "school.jpeg" alt="">
+                    <div class="vertical-title">
+                        Secondary Education
+                        (CBSE)
+                        Grade:94%
+                        
+                    </div>
+                    <!-- <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur excepturi explicabo omnis. Odit enim optio qui expedita reiciendis aliquid, omnis modi cum reprehenderit! Repudiandae, ipsum quas. Nemo quod unde laborum!</div> -->
+                </div>
+                <div class="vertical">
+                    <img class = "image-top" src = "hs.png" alt="">
+                    <div class="vertical-title">
+                        High School
+                        (CBSE)
+                        Grade:87.6%
+                        
+                    </div>
+                    <!-- <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur excepturi explicabo omnis. Odit enim optio qui expedita reiciendis aliquid, omnis modi cum reprehenderit! Repudiandae, ipsum quas. Nemo quod unde laborum!</div> -->
+                </div>
+                <div class="vertical">
+                    <img class = "image-top" src = "grad.avif" alt="">
+                    <div class="vertical-title">
+                        B-Tech:Computer Science
+                        <br>
+                        <span>2023-present</span>
+                        
+                    </div>
+                    <!-- <span>2023-Present</span> -->
+                    <!-- <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur excepturi explicabo omnis. Odit enim optio qui expedita reiciendis aliquid, omnis modi cum reprehenderit! Repudiandae, ipsum quas. Nemo quod unde laborum!</div> -->
+                </div>
+                <!-- <div class="vertical"></div> -->
+            </div>
+        </section>
+        <section class="skills-section">
+            <h2 class="skills-title">Skills</h2>
+            <ul class="skills-list">
+                <li>Programming Languages: Java, Python, C</li>
+                <li>Web Development: HTML, CSS, JavaScript, React</li>
+                <li>Data Structures and Algorithms</li>
+                <li>Tools: Git</li>
+                <li>Databases: MySQL, MongoDB</li>
+                <li>Other Skills: Problem-Solving, Debugging</li>
+            </ul>
+        </section>
+        <section class="certifications-section">
+            <h2 class="certifications-title">Certifications and Training</h2>
+            <ul class="certifications-list">
+                <li>
+                    <strong>Backend Development Training</strong> Revertech IT Solutions-2023
+                    <span class="cert-description">Focused on Python,Flask and MongoDB</span>
+                </li>
+                <li>
+                    <strong>Google Cyber Security</strong> Coursera - 2023
+                    <span class="cert-description">Covered foundations of cybersecurity</span>
+                </li>
+                <li>
+                    <strong>IBM Software Engineering</strong> IBM - 2024
+                    <span class="cert-description">Covered SDLC,web and app developement,Programming</span>
+                </li>
+                <li>
+                    <strong>Java Development,Microservices and Spring</strong> Navin Reddy-Udemy
+                    <span class="cert-description">Covered java development,depolyment,Maven,Docker and Microservices</span>
+                </li>
+            </ul>
+        </section>
+        
+        
+          
+    </main>   
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> 
+    <script>
+    var typed = new Typed('#element', {
+      strings: ['Computer Science Student','Coding Enthusiast','Web Developer'],
+      typeSpeed: 50,
+    });
+    </script>
+    <footer>
+    <div class="footer-container">
+        <div class="footer-content">
+            <p>Connect with me:</p>
+            <ul class="social-links">
+                <li><a href="https://www.linkedin.com/in/diya-susan-mathew-7186a3287/?msgControlName=view_message_button&msgConversationId=2-YzZmNTVmMGQtNWE3My00OTM0LTk1OGEtMmMyZjdiMGEwMWE5XzAxMA%3D%3D&msgOverlay=true" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/Diya-Susan-Mathew" target="_blank">GitHub</a></li>
+                <li><a href="mailto:susanmathewdiya32@gmail.com         ">Email</a></li>
+            </ul>
+        </div>
+        <div class="footer-content">
+            <p>Contact:</p>
+            <address>
+                Pathanamthitta, Kerala, India<br>
+                Phone: +91 8590648560<br>
+                Email: susanmathewdiya32@gmail.com
+            </address>
+        </div>
+        <div class="footer-content">
+            <p>&copy; 2025 Diya Susan Mathew. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+<style>
+    footer {
+        background-color: rgb(15, 6, 102);
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-content {
+        margin: 10px 0;
+    }
+
+    .social-links {
+        list-style: none;
+        padding: 0;
+    }
+
+    .social-links li {
+        display: inline;
+        margin: 0 10px;
+    }
+
+    .social-links a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .social-links a:hover {
+        color: rgb(97, 97, 151);
+    }
+
+    address {
+        font-style: normal;
+        line-height: 1.5;
+    }
+</style>
+</body>
+</html>

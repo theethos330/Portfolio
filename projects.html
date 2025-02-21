@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Playfair Display', serif;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: rgb(15, 6, 102);
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            list-style: none;
+            margin: 0 24px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover {
+            color: rgb(97, 97, 151);
+            font-size: 1.02rem;
+        }
+        .projects-container {
+            max-width: 80vw;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: rgb(20, 16, 56);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .projects-title {
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 20px;
+            text-decoration: underline;
+        }
+        .project {
+            margin-bottom: 20px;
+        }
+        .project-title {
+            font-size: 1.5rem;
+            color: #ffd700;
+        }
+        .project-description {
+            font-size: 1rem;
+            color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Susan's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="index.html">Education</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="index.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="projects-container">
+            <h1 class="projects-title">My Projects</h1>
+
+            <div class="project">
+                <h2 class="project-title">1. Hangman Game (Python)</h2>
+                <p class="project-description">Developed a mini project using Python to create the classic Hangman game. This project includes logic for guessing letters, maintaining a word bank, and tracking attempts.</p>
+            </div>
+
+            <div class="project">
+                <h2 class="project-title">2. CanSat Simulation Frontend</h2>
+                <p class="project-description">Created the frontend for a CanSat simulation using React, HTML, CSS, and JavaScript. Designed and implemented user-friendly interfaces for displaying telemetry data and interactive simulations.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
